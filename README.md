@@ -3,6 +3,7 @@ A simple Python library for displaying text on the LCD 1602 w/ I2C. Implemented 
 
 ## Simple Example
 ```python
+import time
 from LCD import LCD
 
 lcd = LCD() # params available for rPi revision, I2C Address, and backlight on/off
